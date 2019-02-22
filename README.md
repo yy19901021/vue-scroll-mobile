@@ -1,4 +1,20 @@
 # vue-scroll-mobile
+
+  vue移动端better-scroll插件封装， 包含下拉刷新和上拉加载更多
+
+## Install
+
+#### NPM
+```bash
+npm i vue-scroll-mobile
+```
+
+```javascript
+import VueScroll from 'vue-scroll-mobile'
+
+Vue.use(VueScroll);
+```
+
 ## 参数说明
 ``` /**scroll宽度
      *  */
