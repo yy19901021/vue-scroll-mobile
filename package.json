@@ -1,7 +1,7 @@
 {
   "name": "vue-scroll-mobile",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "vue移动端better-scroll插件封装， 包含下拉刷新和上拉加载更多",
   "main": "lib/index.es5.js",
   "dependencies": {
     "better-scroll": "^1.14.1"
@@ -25,5 +25,21 @@
     "compile": "webpack --config build/webpack.config.js"
   },
   "author": "yangyang",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yy19901021/vue-scroll-mobile.git"
+  },
+  "keywords": [
+    "better-scroll",
+    "移动端",
+    "Vue"
+  ],
+  "bugs": {
+    "url": "https://github.com/yy19901021/vue-scroll-mobile/issues"
+  },
+  "homepage": "https://github.com/yy19901021/vue-scroll-mobile#readme"
 }
