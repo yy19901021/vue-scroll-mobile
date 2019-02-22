@@ -1,0 +1,29 @@
+{
+  "name": "vue-scroll-mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.es5.js",
+  "dependencies": {
+    "better-scroll": "^1.14.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/runtime": "^7.3.1",
+    "autoprefixer": "^9.4.8",
+    "babel-loader": "^8.0.0-beta.0",
+    "css-loader": "^2.1.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "vue-loader": "^15.6.4",
+    "vue-template-compiler": "^2.6.7",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "compile": "webpack --config build/webpack.config.js"
+  },
+  "author": "yangyang",
+  "license": "ISC"
+}
