@@ -1,6 +1,6 @@
 {
   "name": "vue-scroll-mobile",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "vue移动端better-scroll插件封装， 包含下拉刷新和上拉加载更多",
   "main": "lib/index.es5.js",
   "dependencies": {

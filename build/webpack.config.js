@@ -3,15 +3,15 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 module.exports = {
   mode: 'production',
   entry: {
-   ' index.es5': path.resolve(__dirname, '../package/index.js')
+   'index.es5': path.resolve(__dirname, '../package/index.js')
   },
   output:{
     filename: '[name].js',
     path: path.resolve(__dirname, '../lib/'),
     chunkFilename: '[id].js',
     libraryExport: 'default',
-    library: 'VUEBETTERSCROLL',
-    libraryTarget: 'commonjs2'
+    library: 'vue-scroll-mobile',
+    libraryTarget: 'umd'
   },
   module: {
     rules:[
