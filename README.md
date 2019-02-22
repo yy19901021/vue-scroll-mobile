@@ -120,13 +120,13 @@
   ```
 
   ## 组件事件
-  事件|说明
-  --|:--:|--:
-  scroll| 滚动事件， 容器滚动时触发
-  scrollEnd| 容器滚动到底部触发
-  beforeScroll| 容器开始滚动触发
-  pulldown| 容器下拉时触发
-  pullup| 容器上拉时触发
+  |事件|说明|
+  |:---|:-----|
+  |scroll| 滚动事件， 容器滚动时触发|
+  |scrollEnd| 容器滚动到底部触发|
+  |beforeScroll| 容器开始滚动触发|
+  |pulldown| 容器下拉时触发|
+  |pullup| 容器上拉时触发|
 
   ## 外部链接
   [Better-scroll文档]（http://ustbhuangyi.github.io/better-scroll/doc/api.html）
